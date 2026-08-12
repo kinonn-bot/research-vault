@@ -36,6 +36,7 @@ Every project is tagged with three axes so you can pick by appetite:
 - [6. Musical instruments](#6-musical-instruments)
 - [7. Ambient / connected displays](#7-ambient--connected-displays)
 - [8. How to pick](#8-how-to-pick)
+- [9. Cameras & imaging](#9-cameras--imaging)
 
 ---
 
@@ -364,6 +365,18 @@ Match the project to **what you want to learn**, not what's most impressive. The
 - V-plotter (4.2) — the lines themselves become the art.
 - Sand table (3.1) — algorithmic sculpture.
 - Word clock variations (2.2) — material science (diffusers, stencils).
+
+---
+
+## 9. Cameras & imaging
+
+The cheapest path to a WiFi-connected camera is an ESP32 camera board + a printed enclosure. See the dedicated deep-research note: [[ESP32 + 3D-Printed Camera Projects]] — board/sensor selection, streaming constraints (MJPEG-only on S3), enclosure designs, and the power-engineering realities of trail cams.
+
+Quick picks from that note:
+- **Printer monitoring cam** (fastest win): AI-Thinker ESP32-CAM (~$7) + snap-fit case + ESPHome — the cheapest documented OctoPrint camera.
+- **Portable timelapse cam:** XIAO ESP32-S3 Sense + magnetic-base housing, captures to SD, battery-pad powered.
+- **Showpiece:** retro point-and-shoot digital camera on XIAO S3 Sense (AVI with sound, on-device playback, wireless file manager).
+- **Engineering challenge:** PIR-triggered wildlife/trail cam — board-level deep sleep is the trap; expect to hard-switch power rather than trust ESP32 sleep modes.
 
 ---
 

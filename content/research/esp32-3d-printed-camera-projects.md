@@ -170,6 +170,23 @@ Fully printed RC vehicles with live video: "DIY 3D-printed RC recon drone — ES
 
 ---
 
+## 6. Verified open-source projects to build on
+
+These are repos/guides that are complete enough to fork and extend — real firmware (not just videos or STL dumps), with docs and permissive licenses. Verified live 2026-08.
+
+| Project | What you get | License / fit |
+|---|---|---|
+| **[barkinsarikartal/XIAO-ESP32S3-Sense_Retro_Camera](https://github.com/barkinsarikartal/XIAO-ESP32S3-Sense_Retro_Camera)** | **The best drop-in candidate.** PlatformIO firmware (src/ + lib/ + test/), **STLs in `models/`**, wiring diagram (connections.fzz), troubleshooting table, measured performance (15–25 fps viewfinder, ~9–10 fps AVI recording with sound). Camera watchdog handles OV2640 AEC/AGC drift. | MIT. Active (43 commits, 2026). Retro point-and-shoot on XIAO S3 Sense + 2" TFT. |
+| **[danjulio/tCam](https://github.com/danjulio/tCam)** | Product-grade **thermal** imaging (Lepton 3.5, radiometric) — touchscreen, battery, WiFi, plus variants (Mini/POE/Eth), Python driver, web server. | GPL-3.0. Requires custom PCB/kit — fork the firmware, not the hardware. |
+| **[rzeldent/esp32cam-rtsp](https://github.com/rzeldent/esp32cam-rtsp)** | RTSP streaming server for nearly every ESP32 camera board (AI-Thinker, ESP-EYE, XIAO S3 Sense, M5Stack, LilyGo). | Open source. Use as the streaming base layer for any project. |
+| **ESPHome [`esp32_camera`](https://esphome.io/components/esp32_camera.html)** | YAML-config camera → Home Assistant with motion, snapshots, timelapse. | Fastest route to "working", least code. |
+| **[Roni Bandini — Machine Learning Doorbell](https://www.hackster.io/roni-bandini/machine-learning-doorbell-with-xiao-esp32s3-sense-aa08d0)** | XIAO S3 Sense doorbell with on-device person detection (Edge Impulse). | Open source. ML-on-ESP32 reference. |
+| **[Jamie Matthews' Telegram trail camera](https://www.hackster.io/news/jamie-matthews-3d-printed-telegram-trail-camera-snaps-critters-at-a-very-low-cost-340e904d4445)** + [Curious Electric build notes](https://www.curiouselectric.co.uk/blogs/blog/prototyping-a-wildlife-camera) | ESP32-CAM + 18650 + PIR, 4-part printed case, pushes snaps to Telegram. | Open. The power-engineering write-up is the valuable part. |
+
+**Recommended build-on order:** retro camera repo (complete MIT platform to extend) → swap its capture/storage core into a printer-monitoring or trail-cam shell → use `esp32cam-rtsp` or ESPHome when you just need a working stream.
+
+---
+
 ## Sources
 
 - Seeed Studio blog — [Top 10 ESP32 CAM Case Designs](https://www.seeedstudio.com/blog/2025/12/19/top-10-esp32-cam-case-designs/)

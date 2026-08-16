@@ -21,7 +21,7 @@ pipeline: text-generation
 source: https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-STEM
 params: 55B active (550B total)
 context: 262144
-architecture: moe (LatentMoE hybrid: Mamba-2 + MoE + Attention, MTP)
+architecture: "moe (LatentMoE hybrid: Mamba-2 + MoE + Attention, MTP)"
 ---
 
 # NVIDIA-Nemotron-Labs-Teacher-STEM

@@ -16,7 +16,7 @@ likes: 98
 license: apache-2.0
 pipeline: text-generation
 source: https://huggingface.co/ibm-granite/granite-4.2-30b
-params: 30B dense (family: 3B, 8B, 30B)
+params: "30B dense (family: 3B, 8B, 30B)"
 context: 131072 (128K native; 512K via long-context extension)
 architecture: dense
 ---

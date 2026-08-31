@@ -16,7 +16,7 @@ likes: 110
 license: apache-2.0
 pipeline: text-generation
 source: https://huggingface.co/apodex/Apodex-1.1-mini
-params: 35B total / ~3B active MoE (base: Qwen3.5-35B-A3B)
+params: "35B total / ~3B active MoE (base: Qwen3.5-35B-A3B)"
 context: 262144 (256K)
 architecture: moe
 ---

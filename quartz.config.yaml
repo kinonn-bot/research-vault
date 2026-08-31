@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: en-US
-  baseUrl: stinkydog1501.github.io/research-vault
+  baseUrl: kinonn-bot.github.io/research-vault
   ignorePatterns:
     - private
     - templates

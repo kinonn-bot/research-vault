@@ -1,5 +1,5 @@
 ---
-title: "BlinkDL/RWKV-7 G1i (GooseOne)"
+title: "BlinkDL/RWKV-7 G1 (GooseOne) — G1i + G1j"
 org: BlinkDL
 model_id: BlinkDL/rwkv7-g1
 date: 2026-08-08
@@ -21,13 +21,13 @@ context: 16384
 architecture: rnn
 ---
 
-# BlinkDL/RWKV-7 G1i (GooseOne)
+# BlinkDL/RWKV-7 G1 (GooseOne) — G1i + G1j
 
-**One-line:** ⚠ no published coding/agent benchmarks — agent-loop suitability unknown. New G1i checkpoint family (1.5B/2.9B/7.2B/13.3B, ctx 16384) of the attention-free pure-RNN RWKV-7 "Goose" architecture, dropped 2026-08-05; headline feature is constant VRAM (no KV cache) — potentially the cheapest long-context local runner, unproven for coding agents.
+**One-line:** ⚠ no published coding/agent benchmarks — agent-loop suitability unknown. Attention-free pure-RNN RWKV-7 "Goose" architecture; **G1i** family (1.5B/2.9B/7.2B/13.3B, ctx 16384) dropped 2026-08-05, then a **new G1j family (same sizes, ctx 16384) dropped 2026-08-31**; headline feature is constant VRAM (no KV cache) — potentially the cheapest long-context local runner, unproven for coding agents.
 
 > ⚠ **No coding or agentic benchmarks published** (lab or third-party) as of 2026-08-08. The BlinkDL card and the official safetensor card (`RWKV/RWKV7-*-20260805`) both ship prompt/tool-call templates but no eval tables. Agent-loop suitability is untested. Community (Zhihu) commentary: "code and STEM still behind Qwen3.5, expected to catch up by year-end" — qualitative, not a number.
 
-**Release event:** the `BlinkDL/rwkv7-g1` repo is old (created 2025-03-07) but the **G1i weights were uploaded 2026-08-05** (`rwkv7-g1i-{1.5b,2.9b,7.2b,13.3b}-20260805-ctx16384.pth`); community GGUF quants (`shoumenchougou/RWKV7-G1i-*-GGUF`) and official safetensor releases (`RWKV/RWKV7-*-20260805`, transformers 5.15+ `Rwkv7ForCausalLM`) appeared 08-05/08-06. G1i is the newest data version — the card says "always use latest models, they are better at everything."
+**Release event:** the `BlinkDL/rwkv7-g1` repo is old (created 2025-03-07) but the **G1i weights were uploaded 2026-08-05** (`rwkv7-g1i-{1.5b,2.9b,7.2b,13.3b}-20260805-ctx16384.pth`); community GGUF quants (`shoumenchougou/RWKV7-G1i-*-GGUF`) and official safetensor releases (`RWKV/RWKV7-*-20260805`, transformers 5.15+ `Rwkv7ForCausalLM`) appeared 08-05/08-06. On **2026-08-31** a further **G1j family** landed in the same repo (`rwkv7-g1j-{1.5b,2.9b,7.2b,13.3b}-20260831-ctx16384.pth`) — this run's trending signal. G1i/G1j are the newest data versions — the card says "always use latest models, they are better at everything."
 
 ## Coding benchmarks
 

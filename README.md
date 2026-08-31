@@ -4,12 +4,12 @@ Personal research notebook built with [Quartz](https://quartz.jzhao.xyz/) and de
 
 ## Live site
 
-**https://stinkydog1501.github.io/research-vault/**
+**https://kinonn-bot.github.io/research-vault/**
 
 ## How it works
 
 - Notes live in `content/` as plain Markdown.
-- Push to `main` → GitHub Actions runs `npx quartz build` → publishes to GitHub Pages.
+- Build + deploy is driven by `~/.local/bin/vault-update`: it runs `npx quartz build`, then force-pushes the static output to the `gh-pages` branch. GitHub Pages serves that branch.
 - Full-text search, backlinks, and Obsidian-style `[[wiki-links]]` all work in the published site.
 
 ## Local development
@@ -27,10 +27,9 @@ Drop a `.md` file into `content/` (or any subfolder), commit, and push:
 ```bash
 git add content/
 git commit -m "research: <topic>"
-git push
+git push origin main        # source branch
+vault-update --commit "deploy: <topic>"   # builds + publishes to gh-pages
 ```
-
-The site rebuilds automatically within ~1 minute.
 
 ## Folders
 

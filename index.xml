@@ -2,69 +2,69 @@
 <rss version="2.0">
     <channel>
       <title>Research Vault</title>
-      <link>https://stinkydog1501.github.io/research-vault</link>
+      <link>https://kinonn-bot.github.io/research-vault</link>
       <description>Last 10 notes on Research Vault</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>edge</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/edge</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/edge</guid>
+    <title>research</title>
+    <link>https://kinonn-bot.github.io/research-vault/research/</link>
+    <guid>https://kinonn-bot.github.io/research-vault/research/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item><item>
-    <title>on-device</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/on-device</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/on-device</guid>
+    <title>models</title>
+    <link>https://kinonn-bot.github.io/research-vault/research/models/</link>
+    <guid>https://kinonn-bot.github.io/research-vault/research/models/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item><item>
-    <title>instruct</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/instruct</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/instruct</guid>
+    <title>research</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/research</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/research</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item><item>
-    <title>hybrid</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/hybrid</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/hybrid</guid>
+    <title>hardware</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/hardware</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/hardware</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item><item>
-    <title>function-calling</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/function-calling</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/function-calling</guid>
+    <title>esp32</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/esp32</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/esp32</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item><item>
-    <title>looped-transformer</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/looped-transformer</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/looped-transformer</guid>
+    <title>camera</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/camera</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/camera</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item><item>
-    <title>compact</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/compact</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/compact</guid>
+    <title>3d-printing</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/3d-printing</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/3d-printing</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item><item>
-    <title>moe</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/moe</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/moe</guid>
+    <title>project-ideas</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/project-ideas</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/project-ideas</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item><item>
-    <title>mla</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/mla</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/mla</guid>
+    <title>hermes-agent</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/hermes-agent</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/hermes-agent</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item><item>
-    <title>large</title>
-    <link>https://stinkydog1501.github.io/research-vault/tags/large</link>
-    <guid>https://stinkydog1501.github.io/research-vault/tags/large</guid>
+    <title>browser</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/browser</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/browser</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:10:59 GMT</pubDate>
+    <pubDate>Mon, 31 Aug 2026 16:17:07 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -21,7 +21,7 @@ pipeline: text-generation
 source: https://huggingface.co/logic65/Whittle-Next-27B-A3B
 params: 27.1B total / ~3B active (MoE)
 context: 262144
-architecture: moe / hybrid (qwen4_exp: linear+full attention, hyper-connections, n-gram memory)
+architecture: "moe / hybrid (qwen4_exp: linear+full attention, hyper-connections, n-gram memory)"
 ---
 
 # logic65/Whittle-Next-27B-A3B

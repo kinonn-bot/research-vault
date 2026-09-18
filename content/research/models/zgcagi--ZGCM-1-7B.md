@@ -13,8 +13,8 @@ tags:
   - open-weights
   - long-context
   - math
-downloads: 406
-likes: 14
+downloads: 1162
+likes: 23
 license: mit
 pipeline: text-generation
 source: https://huggingface.co/zgcagi/ZGCM-1-7B

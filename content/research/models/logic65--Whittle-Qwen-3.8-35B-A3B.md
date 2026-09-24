@@ -17,9 +17,9 @@ likes: 5
 license: apache-2.0
 pipeline: text-generation
 source: https://huggingface.co/logic65/Whittle-Qwen-3.8-35B-A3B
-params: 3B active (35.1B total: 25.1B body + 10B n-gram memory)
+params: "3B active (35.1B total: 25.1B body + 10B n-gram memory)"
 context: 262k (tested to 75k)
-architecture: moe (qwen4_exp: hyper-connections, gated DeltaNet + Attention, 10B hashed n-gram memory lookup)
+architecture: "moe (qwen4_exp: hyper-connections, gated DeltaNet + Attention, 10B hashed n-gram memory lookup)"
 ---
 
 # logic65/Whittle-Qwen-3.8-35B-A3B

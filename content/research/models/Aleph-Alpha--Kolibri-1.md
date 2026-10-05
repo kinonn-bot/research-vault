@@ -21,7 +21,7 @@ pipeline: text-generation
 source: https://huggingface.co/Aleph-Alpha/Kolibri-1
 params: "3.46B active (78.1B total; 384 experts, top-6 routed + 1 shared, 50 layers)"
 context: "262,144 native; 1,048,576 by extrapolation (recommend <=262k)"
-architecture: moe (4:1 sliding-window GQA : full-attention, 50 layers)
+architecture: "moe (50 layers, 4:1 sliding-window GQA to full-attention)"
 ---
 
 # Aleph-Alpha/Kolibri-1

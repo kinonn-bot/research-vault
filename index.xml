@@ -6,65 +6,65 @@
       <description>Last 10 notes on Research Vault</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>models</title>
-    <link>https://kinonn-bot.github.io/research-vault/research/models/</link>
-    <guid>https://kinonn-bot.github.io/research-vault/research/models/</guid>
+    <title>headless</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/headless</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/headless</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item><item>
-    <title>research</title>
-    <link>https://kinonn-bot.github.io/research-vault/tags/research</link>
-    <guid>https://kinonn-bot.github.io/research-vault/tags/research</guid>
+    <title>raspberry-pi</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/raspberry-pi</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/raspberry-pi</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item><item>
-    <title>hardware</title>
-    <link>https://kinonn-bot.github.io/research-vault/tags/hardware</link>
-    <guid>https://kinonn-bot.github.io/research-vault/tags/hardware</guid>
+    <title>llm</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/llm</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/llm</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item><item>
-    <title>esp32</title>
-    <link>https://kinonn-bot.github.io/research-vault/tags/esp32</link>
-    <guid>https://kinonn-bot.github.io/research-vault/tags/esp32</guid>
+    <title>open-weight</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/open-weight</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/open-weight</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item><item>
-    <title>camera</title>
-    <link>https://kinonn-bot.github.io/research-vault/tags/camera</link>
-    <guid>https://kinonn-bot.github.io/research-vault/tags/camera</guid>
+    <title>weekly-recap</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/weekly-recap</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/weekly-recap</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item><item>
-    <title>3d-printing</title>
-    <link>https://kinonn-bot.github.io/research-vault/tags/3d-printing</link>
-    <guid>https://kinonn-bot.github.io/research-vault/tags/3d-printing</guid>
+    <title>mechanical</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/mechanical</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/mechanical</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item><item>
-    <title>project-ideas</title>
-    <link>https://kinonn-bot.github.io/research-vault/tags/project-ideas</link>
-    <guid>https://kinonn-bot.github.io/research-vault/tags/project-ideas</guid>
+    <title>microcontroller</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/microcontroller</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/microcontroller</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item><item>
-    <title>oled</title>
-    <link>https://kinonn-bot.github.io/research-vault/tags/oled</link>
-    <guid>https://kinonn-bot.github.io/research-vault/tags/oled</guid>
+    <title>laser-cutting</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/laser-cutting</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/laser-cutting</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item><item>
-    <title>18650</title>
-    <link>https://kinonn-bot.github.io/research-vault/tags/18650</link>
-    <guid>https://kinonn-bot.github.io/research-vault/tags/18650</guid>
+    <title>huggingface</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/huggingface</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/huggingface</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item><item>
-    <title>build</title>
-    <link>https://kinonn-bot.github.io/research-vault/tags/build</link>
-    <guid>https://kinonn-bot.github.io/research-vault/tags/build</guid>
+    <title>text-generation</title>
+    <link>https://kinonn-bot.github.io/research-vault/tags/text-generation</link>
+    <guid>https://kinonn-bot.github.io/research-vault/tags/text-generation</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:37 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:13:51 GMT</pubDate>
   </item>
     </channel>
   </rss>

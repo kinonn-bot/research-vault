@@ -55,14 +55,29 @@ Source Licence Agreement; maintainers clarify commercial use is permitted with a
 cleaner Apache 2.0 alternative for Mandarin; Whisper/Parakeet/Moonshine are MIT or CC-BY-4.0
 (attribution only).
 
-### Recommendation for this project
+### Recommendation for this project — corrected for on-device (HF API verified 2026-11-04)
 
-- **Server/cloud transcription:** Whisper Large V3 Turbo (multilingual incl. Mandarin,
-  MIT, big ecosystem) — or Parakeet TDT if batch throughput matters. Both run via
-  faster-whisper / NeMo on GPU.
-- **On-device (offline) transcription:** non-negotiable for a recorder (planes, basements,
-  privacy). Options below; SenseVoice-Small (234M, EN+ZH) or a quantized Whisper
-  small/base are the pragmatic bundles. Dolphin-CN-Dialect-small if dialect coverage wins.
+- **Server/cloud transcription:** Whisper Large V3 Turbo (multilingual incl. Mandarin)
+  or Parakeet TDT for batch throughput, via faster-whisper / NeMo on GPU.
+  Disqualified for phone: Canary-Qwen 2.5B, Granite 8B, Whisper Large 1.55B/809M,
+  Parakeet 1.1B, Dolphin base/small, Paraformer-large — size/RAM/battery.
+- **On-device (offline) transcription — HF-verified picks (pipeline_tag=
+  automatic-speech-recognition, sort=lastModified + downloads):**
+  - Default single EN+ZH model: `FunAudioLLM/SenseVoiceSmall` — 234M,
+    non-autoregressive, 70ms/10s audio, 50+ langs (zh/yue/en/ja/ko). ONNX via
+    sherpa-onnx + GGUF via `handy-computer/SenseVoiceSmall-gguf` (33k dl) /
+    `FunAudioLLM/SenseVoiceSmall-GGUF`. HF downloads ~25.5k last month.
+    Licence: `license:other` → FunASR MODEL_LICENSE (commercial use with
+    attribution per maintainers — read MODEL_LICENSE §2.2 before shipping).
+  - Cleanest-licence single EN+ZH model: `openai/whisper-small` (242M params,
+    HF reports apache-2.0) or `openai/whisper-base` (72M params, HF reports
+    apache-2.0) as sherpa-onnx ONNX int8. HF downloads: small 4.24M, base 3.59M.
+    Larger/slower than SenseVoice, best ecosystem.
+  - Smallest footprint: `moonshine-ai/moonshine-tiny-zh` (27M, CER 13.7% FLEURS-zh,
+    Q8 GGUF 34MB via `handy-computer/moonshine-tiny-zh-gguf`) + EN twin
+    `UsefulSensors/moonshine-tiny` (27M, Q8 34MB, MIT per OpenASR repack).
+    Caveat: two models, no code-switch in one sentence; HF card says
+    `license:other` on tiny-zh — verify upstream MIT claim before shipping.
 - **Mandarin strategy:** single multilingual model (Whisper Turbo / SenseVoice / Dolphin)
   beats juggling separate EN + ZH models — important for Singapore code-switching
   (English ↔ Mandarin in one sentence). Test shortlisted models on code-switched audio
